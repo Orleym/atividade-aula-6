@@ -1,4 +1,6 @@
 package br.unitins.atividade_aula_6;
 
-public class AlunoRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AlunoRepository extends JpaRepository<Aluno, Long> {
 }
